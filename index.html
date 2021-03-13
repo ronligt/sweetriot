@@ -24,51 +24,57 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
-    <p class="h5 my-0 me-md-auto fw-normal">SWEET RIOT</p>
+    <p class="h5 my-0 me-md-auto fw-normal"><img src="img/sweet_riot_logo.png"></p>
     <nav class="my-2 my-md-0 me-md-3">
       <a class="p-2 text-dark" href="#myPage">HOME</a>
       <a class="p-2 text-dark" href="#band">BAND</a>
       <a class="p-2 text-dark" href="#media">MEDIA</a>
+      <a class="p-2 text-dark" href="#setlist">SETLIST</a>
       <a class="p-2 text-dark" href="#contact">CONTACT</a>
     </nav>
   </header>
 
   <main>
-    
+
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/groepsfoto.png" class="d-block w-100" alt="..." width="100%">
+          <img src="img/groepsfoto.png" class="d-block w-100" alt="groepsfoto" width="100%">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Straatfeest 2020</h5>
+            <p>Uitverkochte straat met dito band</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/optreden.png" class="d-block w-100" alt="..." width="100%">
+          <img src="img/schiebroek_2020.png" class="d-block w-100" alt="Schiebroek 2020" width="100%">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Straatfeest 2020</h5>
+            <p>Uitzinnig publiek na derde toegift</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="img/vlaardingen_2019.png" class="d-block w-100" alt="Vlaardingen 2019">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Vlaardingen 2019</h5>
+            <p>Geschikt voor jong en oud</p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -132,45 +138,82 @@
         <div class="row text-center">
           <div class="col-sm-3">
             <div class="card">
-
+              <img src="img/happy.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body">
+                  <h2 class="card-title">Happy</h2>
+                  <audio class="player" controls src="media/Happy_20200715.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                  </audio>
+                </div>
+              </div>
             </div>
-            <figure>
-              <figcaption>Happy</figcaption>
-              <audio controls src="media/Happy_20200715.mp3">
-                Your browser does not support the
-                <code>audio</code> element.
-              </audio>
-            </figure>
           </div>
           <div class="col-sm-3">
-            <figure>
-              <figcaption>Havana</figcaption>
-              <audio controls src="media/Havana_20200715.mp3">
-                Your browser does not support the
-                <code>audio</code> element.
-              </audio>
-            </figure>
+            <div class="card">
+              <img src="img/havana.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body">
+                  <h2 class="card-title">Havana</h2>
+                  <audio class="player" controls src="media/Havana_20200715.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                  </audio>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-sm-3">
-            <figure>
-              <figcaption>Tell Mama</figcaption>
-              <audio controls src="media/Tell_Mama_20200715.mp3">
-                Your browser does not support the
-                <code>audio</code> element.
-              </audio>
-            </figure>
+            <div class="card">
+              <img src="img/tell_mama.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body">
+                  <h2 class="card-title">Tell Mama</h2>
+                  <audio class="player" controls src="media/Tell_Mama_20200715.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                  </audio>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-sm-3">
-            <figure>
-              <figcaption>This Will Be</figcaption>
-              <audio controls src="media/This_Will_Be_20200715.mp3">
-                Your browser does not support the
-                <code>audio</code> element.
-              </audio>
-            </figure>
+            <div class="card">
+              <img src="img/this_will_be.png" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <div class="card-body">
+                  <h2 class="card-title">This Will Be</h2>
+                  <audio class="player" controls src="media/This_Will_Be_20200715.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                  </audio>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Container (SETLIST) -->
+    <div id="setlist" class="container">
+      <h3 class="text-center">SETLIST</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Runnaway Baby</li>
+        <li class="list-group-item">Happy</li>
+        <li class="list-group-item">Get Ready</li>
+        <li class="list-group-item">Tell Mama</li>
+        <li class="list-group-item">Havana</li>
+        <li class="list-group-item">This Will Be</li>
+        <li class="list-group-item">The Chicken</li>
+        <li class="list-group-item">People Hold On</li>
+        <li class="list-group-item">We Should Be Dancing</li>
+        <li class="list-group-item">Fool For You</li>
+        <li class="list-group-item">Don't Blame It On That Girl</li>
+      </ul>
+      <em>deze lijst is hevig aan veranderingen onderheven,
+        mede door weersomstandigheden en volstrekte willekeur</em>
     </div>
 
     <!-- Container (TOUR Section) -->
@@ -261,21 +304,23 @@
           <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
         </div>
         <div class="col-md-8">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          <form id="email">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
             </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <button id="send" class="btn pull-right" type="submit">Send</button>
+              </div>
             </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-          <br>
-          <div class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right" type="submit">Send</button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
       <br>

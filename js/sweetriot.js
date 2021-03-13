@@ -26,3 +26,13 @@ $(document).ready(function () {
         } // End if
     });
 });
+
+$( "#email" ).submit(function() {
+    var name = $(this).find('[name=name]').val();
+    var email = $(this).find('[name=email').val();
+    var comment = $(this).find('[name=comments]').val();
+
+    var subject = encodeURIComponent("Website: vraag van "+name);
+    var body = encodeURIComponent("Naam: "+name+"\n"+"E-mail: "+email+"\n\n"+comment);
+    window.open('mailto:r.ligteringen@gmail.com?subject='+subject+'&body='+body);
+});

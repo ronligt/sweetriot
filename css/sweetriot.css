@@ -3,6 +3,10 @@ body {
     color: #777;
 }
 
+h2 {
+    color: black;
+}
+
 h3,
 h4 {
     margin: 10px 0 30px 0;
@@ -13,6 +17,15 @@ h4 {
 
 .container {
     padding: 80px 120px;
+}
+
+.player {
+    width: 10%;
+}
+
+.card-img {
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
 }
 
 .person {
@@ -28,8 +41,8 @@ h4 {
 }
 
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
     /* make all photos black and white */
     width: 100%;
     /* Set width to 100% */
