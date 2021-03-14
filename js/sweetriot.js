@@ -34,5 +34,5 @@ $( "#email" ).submit(function() {
 
     var subject = encodeURIComponent("Website: vraag van "+name);
     var body = encodeURIComponent("Naam: "+name+"\n"+"E-mail: "+email+"\n\n"+comment);
-    window.open('mailto:r.ligteringen@gmail.com?subject='+subject+'&body='+body);
+    window.open('mailto:sweetriot1@gmail.com?subject='+subject+'&body='+body);
 });
